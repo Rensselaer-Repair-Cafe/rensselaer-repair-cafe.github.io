@@ -92,15 +92,22 @@ permalink: /
 		If you would like to join the organizing committee or volunteer to join as a repair expert, 
 		please complete the form below.
 		</p>
-		<form action="https://fabform.io/f/4y-dhU_" method="post">
-		  <label for="firstName">First Name</label>
-		  <input name="firstName" type="text" required>
-		  <label for="lastName">Last Name</label>
-		  <input name="lastName" type="text" required>
-		  <label for="email">Email</label>
-		  <input name="email" type="text" required>
-		  <button type="submit">Send</button>
-		</form>
+		<div class="col-md-12">
+			<form action="https://fabform.io/f/4y-dhU_" method="post">
+				<label for="name">Name</label>
+				<input name="name" type="text" required>
+				<label for="email">Email</label>
+				<input name="email" type="text" required>
+				<label>I would like to</label>
+          			<input type="radio" id="coach" value="coach" name="how">
+				<label for="coach" class="light">Be a repair coach</label><br>
+          			<input type="radio" id="committee" value="committee" name="how">
+				<label for="committee" class="light">Join the organizing committee</label>
+				<input type="radio" id="both" value="both" name="how">
+				<label for="both" class="light">Both</label>
+				<button type="submit">Send</button>
+			</form>
+		</div>
 	    </div>
 	</div>
     </div>
