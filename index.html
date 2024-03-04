@@ -106,20 +106,32 @@ permalink: /
 		please complete the form below.
 		</p>
 		<div class="row text-center" style="margin: auto;">    
-		    <div class="col-md-4">
+		    <div class="col-md">
 			<form action="https://fabform.io/f/4y-dhU_" method="post">
+			    <div class="form-group">
 				<label for="name">Name</label>
 				<input name="name" type="text" required>
+			    </div>
+			    <div class="form-group">
 				<label for="email">Email</label>
 				<input name="email" type="text" required>
+			    </div>
+			    <div class="form-group">
 				<label>I would like to</label>
-          			<input type="radio" id="coach" value="coach" name="how">
-				<label for="coach" class="light">Be a repair coach</label><br>
-          			<input type="radio" id="committee" value="committee" name="how">
-				<label for="committee" class="light">Join the organizing committee</label>
-				<input type="radio" id="both" value="both" name="how">
-				<label for="both" class="light">Both</label>
-				<button type="submit">Send</button>
+				<div class="form-check">
+          			    <input type="radio" id="coach" value="coach" name="how">
+				    <label for="coach" class="light">Be a repair coach</label><br>
+				</div>
+				<div class="form-check">
+          			    <input type="radio" id="committee" value="committee" name="how">
+				    <label for="committee" class="light">Join the organizing committee</label>
+				</div>
+				<div class="form-check">
+				    <input type="radio" id="both" value="both" name="how">
+				    <label for="both" class="light">Both</label>
+				</div>
+			    </div>
+			    <button type="submit">Send</button>
 			</form>
 		    </div>
 		</div>
