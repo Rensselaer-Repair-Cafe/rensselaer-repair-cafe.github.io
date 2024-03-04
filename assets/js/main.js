@@ -132,7 +132,7 @@
 			if ( st > 250 ) {
 				if ( !navbar.hasClass('awake') ) {
 					navbar.addClass('awake');	
-					$('#logo').attr('src', "/images/workflows-community-logo-horizontal.png");
+					$('#logo').attr('src', "/images/rrc-logo.png");
 				}
 				
 				if(sd.length > 0) {
@@ -143,7 +143,7 @@
 				if ( navbar.hasClass('awake') ) {
 					navbar.removeClass('awake');
 					navbar.addClass('sleep');
-					$('#logo').attr('src', "/images/wci-white-logo.png");
+					$('#logo').attr('src', "/images/rrc-logo.png");
 				}
 				if(sd.length > 0) {
 					sd.removeClass('sleep');
